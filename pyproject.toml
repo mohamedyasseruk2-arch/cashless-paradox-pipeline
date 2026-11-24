@@ -1,0 +1,9 @@
+[project]
+name = "cashless"
+version = "1.0.0"
+description = "Data pipeline for 'The Cashless Paradox' (BSc dissertation, University of Sussex)"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
